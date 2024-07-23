@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .filter-form {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 150px;
+            right:500px;
+            
+        }
+
+        .filter-form h3 {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .filter-form select,
+        .filter-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        
+        }
+
+        .filter-form input[type="submit"] {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .filter-form input[type="submit"]:hover {
+            background-color: #c82333;
+        }
+
+        details {
+            margin-bottom: 15px;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .clear-filter {
+            display: block;
+            margin-bottom: 20px;
+            color: #666;
+            text-decoration: underline;
+
+        }
+
+        .clear-filter:hover {
+            text-decoration: underline;
+            
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="clear-filter">Temizle</a>
+    <div class="filter-form">
+        <details open>
+            <summary>Konut</summary>
+            
+            <ul>
+                
+                <li><details><summary>Satılık</summary></details></li>
+                <li><details><summary>Kiralık</summary></details></li>
+            </ul>
+        </details>
+
+        <h3>Adres</h3>
+        <select>
+            <option value="">İl</option>
+        </select>
+        <select>
+            <option value="">İlçe</option>
+        </select>
+        <select>
+            <option value="">Mahalle</option>
+        </select>
+
+        <h3>Kimden</h3>
+       
+
+        <h3>İlan Tarihi</h3>
+       
+
+        <h3>Tapu Durumu</h3>
+      
+
+        <h3>Zemin Etüdü</h3>
+        
+
+        <h3>Fiyat</h3>
+        <input type="number" placeholder="En Düşük">
+        <input type="number" placeholder="En Yüksek">
+        <h3>m<sup>2</sup> </h3>
+       
+        <h3>Oda Sayısı</h3>
+       
+        <h3>Bina Yaşı</h3>
+      
+        <h3>Kat Sayısı</h3>
+        
+        <h3>Isıtma</h3>
+        
+        <h3>Banyo Sayısı</h3>
+        
+        <h3>Balkon</h3>
+        
+        <h3>Asansör</h3>
+       
+        <h3>Eşyalı</h3>
+        
+        <h3>Kullanım Durumu</h3>
+      
+        <h3>Krediye Uygun</h3>
+        
+        <h3>Takaslı</h3>
+       
+        <h3>Arazi m<sup>2</sup></h3>
+        
+        <h3>Salon Sayısı</h3>
+        
+        <h3>Yapı Tipi</h3>
+       
+        <h3>Bulunduğu Kat</h3>
+        
+        <h3>Yapının Durumu</h3>
+       
+        <h3>Dış Cephe</h3>
+        
+        <h3>Yapı Malzemesi</h3>
+        
+        <h3>Otopark</h3>
+        
+        <input type="submit" value="Filtrele">
+        <h3></h3>
+    </div>
+</body>
+</html>

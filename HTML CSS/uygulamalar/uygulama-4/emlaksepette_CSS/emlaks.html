@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .underlined{
+            text-decoration:underline;
+            color: #333333;
+        } 
+        .details{
+
+        }
+       
+       
+        summary {
+            font-weight: normal;
+            cursor:pointer;
+            color: #333333;
+            
+        }
+
+        
+        summary::before{
+            content:"▲";
+            float:right;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+       
+    </style>
+</head>
+<body>
+    <p> <a href="https://www.example.com"<span class="underlined">Temizle</span></p>
+        <ul>
+            <li>
+                <details>
+            <summary>Konut</summary>
+            </details>
+            </li>
+        </ul>
+            <ul>
+                <li>
+                    <details>
+                        <summary>Satılık</summary>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Kiralık</summary>
+                    </details>
+                </li>
+                
+            </ul>
+        </details>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="register.php">
+        <div>
+        <label for="name">Ad-Soyad</label>
+        <input type="text" id="name">
+        </div>
+        
+        <div>
+            <label for="surname">Kurs Adı</label>
+            <input type="text" id="surname">
+            </div>
+            <div>
+                <label for="parola">Açıklama</label>
+                <input type="password" id="parola">
+                </div>
+            <div>
+                <label for="intro">Kategori</label>
+                <textarea id="intro" cols="30"></textarea>
+                </div>
+        <div>
+            <p>En sevdiğin kategori:</p>
+            <input type="radio" id="html" name="programlama">
+            <label for="html">Web Geliştirme</label>
+
+            <input type="radio" id="css" name="programlama">
+            <label for="css">Programlama</label>
+
+            
+        </div>
+        <div>
+            <p>En sevdiğin kategori:</p>
+            <input type="checkbox" id="html" >
+            <label for="html">Web Geliştirme </label>
+
+            <input type="checkbox" id="css">
+            <label for="css">Programlama</label>
+
+            
+        
+        </div>
+        <div>
+            <label for="cities">Kurs Adı</label>
+            <select id="cities">
+                <option value="01">Komple Uygulamalı Web Geliştirme Eğitimi</option>
+                <option value="34">İstanbul</option>
+            </select>
+        </div>
+        <div>
+            <label for="eposta">Email</label>
+            <input type="email" id="eposta">
+        </div>
+        <div>
+            <label for="birthday">Doğum Günü:</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <button type="submit">Kaydet</button>
+        <button type="reset">Temizle</button>
+    </form>
+</body>
+</html>
